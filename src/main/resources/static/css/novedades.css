@@ -1,0 +1,78 @@
+.cuerpon{
+
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(190deg,#05A6DA,#58B2D6);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cabezanov{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    color: black;
+    opacity: 0.8;
+}
+.cabeza h1{
+    display: inline-block;
+}
+.navn{
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background:white;
+    color: black;
+    opacity: 0.8;
+}
+.navn a:hover{ /*con el hover decimos, cuando el mouse esta sobre las letras, se da una animacion*/
+    background-color: lightskyblue;
+    color: black;
+
+}
+.barran{
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 81%;
+    width: 15%;
+    background-color: lightsteelblue;
+    padding: 10px;
+    overflow: auto;/*Navegacion automatica en toda la pagina*/
+}
+
+.secn{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color: lightskyblue;
+    padding: 10px;
+    overflow: auto;/*Navegacion automatica en toda la pagina*/
+}
+
+.pagn{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 4%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    overflow: auto;/*Navegacion automatica en toda la pagina*/
+}
+.social li{
+    list-style: none;
+}
+.social li a{
+    display: inline-block;
+    margin-left: -150px;
+    list-style: none;
+    transform: scale(0.2);
+    transition: 0.5s;
+}

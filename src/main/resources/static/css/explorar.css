@@ -1,0 +1,93 @@
+.cabezaexp{
+    height: 800px;
+    background-image: url("https://static.nike.com/a/images/w_1920,c_limit/3edb0559-9b1f-4dbb-be24-c6fa08240faf/%C2%BFqu%C3%A9-es-el-tower-running.jpg ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: 5.8;
+    overflow: auto;/*Navegacion automatica en toda la pagina*/
+}
+
+.inic{
+    position: absolute;
+    top: 4%;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background: linear-gradient(180deg,#0AA6DA,#58B2D6);
+    color: blanchedalmond;
+    overflow: auto;/*Navegacion automatica en toda la pagina*/
+}
+.inic h1{
+    display: inline-block;
+}
+.inic h1:hover{ /*con el hover decimos, cuando el mouse esta sobre las letras, se da una animacion*/
+    background-color: white;
+    color: black;
+}
+.nav{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background:white;
+    color: black;
+    opacity: 0.8;
+}
+.nav a:hover{ /*con el hover decimos, cuando el mouse esta sobre las letras, se da una animacion*/
+    background-color: lightskyblue;
+    color: black;
+
+}
+.barraizq{
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 85%;
+    width: 15%;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    color: black;
+    padding: 10px;
+    overflow: auto;/*Navegacion automatica en toda la pagina*/
+}
+
+.sec{
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    overflow: auto;/*Navegacion automatica en toda la pagina*/
+    color: black;
+    padding: 10px;
+
+}
+
+.final{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 4%;
+    width: 100%;
+    background-color: lightcyan;
+    text-align: center;
+}
+.parrafo{
+    color: black;
+
+}
+.sec:hover{
+    background-color: lightskyblue;
+    color: black;
+}
+.video {
+
+    top: 23%;
+    left: 15%;
+    object-fit: cover;
+}
+
+
