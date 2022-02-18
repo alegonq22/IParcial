@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="css/perfil.css" type="text/css"/>
+     
+
+
+        <title>Update Informacion de Perfil</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <header class="encabezado"> <!-- Encabezado-->
+            <h1>Update Informacion de Perfil</h1>
+        </header>
+        
+        <div class="container">
+  <form action="action_page.php">
+
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="primernombre" placeholder="Nombre">
+
+    <label for="apellidos">Apellidos</label>
+    <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos">
+    
+    <label for="correo">Correo</label>
+    <input type="text" id="correo" name="correo" placeholder="Correo@correo.com"><!-- comment -->
+    
+    <label for="telefono">Telefono</label>
+    <input type="text" id="telefono" name="telefono" placeholder="5555-5555">
+    
+   <label for="fechanacimiento">Fecha de Nacimiento</label>
+    <input type="text" id="fnacimiento" name="fechanacimiento" placeholder="DD/MM/AAAA">
+    
+    <label for="direccion">Direccion Exacta</label>
+    <textarea id="subject" name="direccion" placeholder="Direccion exacta..." style="height:50px"></textarea>
+
+    <label for="Pais">Country</label>
+    <select id="pais" name="pais">
+        <option value="costarica">Costa Rica</option>
+      <option value="panama">Panama</option>
+      <option value="honduras">Honduras</option>
+      <option value="usa">USA</option>
+    </select>
+
+   
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+        
+         <footer class="piedepag">
+            Derechos reservados &COPY; 2022 <address style="display: inline"> email: distribuidoras@ssa.com<br>tel: 8565-9633</address>
+        </footer>
+    </body>
+</html>
