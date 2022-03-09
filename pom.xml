@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tienda</groupId>
-	<artifactId>SSA</artifactId>
+	<artifactId>I_Ticket</artifactId>
 	<version>1</version>
-	<name>SSA</name>
+	<name>I_Ticket</name>
 	<description>Proyecto Diseño AWP</description>
 	<properties>
 		<java.version>17</java.version>

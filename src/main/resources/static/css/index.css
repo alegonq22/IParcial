@@ -3,59 +3,94 @@ Hoja de estilos
 
 */
 
-.encabezado{
-    position: absolute;
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
+.head{
+    background-color: #1450A6;
+    height: 80px;
+    position: fixed;
     top: 0;
     left: 0;
-    height: 8%;
     width: 100%;
-    background: linear-gradient(180deg,#0AA6DA,#58B2D6);
-    color: whitesmoke;
-}
-.encabezado h1{
-    display: inline-block;
-}
-.menu{
-    position: absolute;
-    top: 8%;
-    left: 0;
-    height: 4%;
-    width: 100%;
-    background:white;
-    color: black;
-}
-.menu a:hover{ /*con el hover decimos, cuando el mouse esta sobre las letras, se da una animacion*/
-    background-color: lightskyblue;
-    color: black;
 
 }
-.barralateral{
-    position: absolute;
-    top: 12%;
-    left: 0;
-    height: 81%;
-    width: 20%;
-    background-color: lightsteelblue;
-    padding: 10px;
-    overflow: auto;/*Navegacion automatica en toda la pagina*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
 }
-.contenido{
-    position: absolute;
-    top: 12%;
-    left: 20%;
-    height: 81%;
-    width: 80%;
-    background-color: lightskyblue;
-    padding: 10px;
-    overflow: auto;/*Navegacion automatica en toda la pagina*/
+.nav-link{
+    color: white;
+    text-decoration: none;
 }
-.piedepag{
-    position: absolute;
+.logo{
+    font-size: 50px;
+    font-weight: lighter;
+    padding:0 40px;
+    line-height: 80px;
+
+
+}
+.nav-menu{
+    display: flex;
+    margin-right: 10px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 20px;
+    margin:0 20px;
+    line-height: 80px;
+    width: max-content;    
+}
+.nav-menu-link:hover{
+    background-color: #ED7E46;
+    transition: 0.5s;
+    
+}
+.nav-menu-link{
+padding: 8px 12px;
+border-radius: 4px;
+}
+.nav-f{
+margin-left: 700px;
+position: fixed;
+padding: 0px 5px;
+
+}
+
+.menu{
+    font-family: sans-serif;
+    padding: 90px 700px;
+    font-size: 20px;
+    background-color: #0E3D80;
+    color: white;
+}
+.menu a:hover{ 
+    background-color: #3D7FDC;
+    transition: 0.5s;
+
+}
+.menu a{
+padding: 1px 10px;
+border-radius: 4px;
+color: white;
+
+}
+
+
+.foot{
+    
     bottom: 0%;
     left: 0%;
     height: 4%;
     width: 100%;
-    background-color: lightcyan;
+    background-color: #ED7E46;
     text-align: center;
-    overflow: auto;/*Navegacion automatica en toda la pagina*/
 }
